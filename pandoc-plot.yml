@@ -1,0 +1,7 @@
+directory: /data/plots/
+
+format: PNG
+
+plantuml:
+  executable: plantuml
+  command_line_arguments:
