@@ -19,7 +19,7 @@ docker run \
 	--rm \
 	--volume "`pwd`/build:/data" \
 	--user `id -u`:`id -g` \
-	rej696/pandoc-builder:latest \
+	rej696/pandoc-builder:1.0 \
 	$1.md \
 	-F pandoc-crossref \
 	--citeproc \
